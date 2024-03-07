@@ -1,0 +1,33 @@
+/* RESET RULES */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* style */
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.col {
+    display: flex;
+    gap: 10px;
+}
